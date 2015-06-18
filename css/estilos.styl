@@ -1,87 +1,90 @@
+.imagen-container
+  height 380px
+  position relative
+  overflow hidden
+  width 100%
+  img 
+    max-width 100%
 .activo 
-	border 2px solid #6CB78D
-	border-radius 6px
-	color #6CB78D !important
+  border 2px solid #6CB78D
+  border-radius 6px
+  color #6CB78D !important
 body
-	font-size 16px
+  font-size 16px
+ 
 a
-	&:hover
-		text-decoration none
+  &:hover
+    text-decoration none
 li
-	list-style none
+  list-style none
 ul
-	padding 0
-	margin 0
-header
-	height 8em
-	.logo
-		img
-			width 30%
+  padding 0
+  margin 0
+.header
+  padding 2em 3em
+  overflow hidden
+  .logo
+    float left
+    img
+      width 50%
 .menu
-	line-height 8em
-	li
-		display inline-block 
-		a
-			font-size 1.2em
-			font-weight 200
-			color #2B3F48
-			padding .7em .7em
-			&:hover
-				color #6CB78D
-			&:active
-				border 2px solid #6CB78D
-				border-radius 6px
-				color #6CB78D
-.imagenes-estudio
-	height 700px
-	.imagen
-		overflow hidden
-		img 
-			width 1440px
-			height 700px
-			position absolute
-	.titulo
-		text-transform uppercase
-		position relative
-		left 45em
-		top 30em
-		display inline-block
-		h2
-			color white
-			font-size 2.5em
-		span
-			color rgba(255,255,255,.4)
-			font-size 1.5em		
+  float right
+  margin-top 2em
+  li
+    display inline-block 
+    a
+      font-size 1.2em
+      font-weight 200
+      color #2B3F48
+      padding .7em .7em
+      &:hover
+        color #6CB78D
+      &:active
+        border 2px solid #6CB78D
+        border-radius 6px
+        color #6CB78D
+.titulo
+  bottom 1em
+  right 2em
+  position absolute  
+  text-align right
+  h2
+    color white
+    font-size 2.5em
+    text-transform  capitalize
+    text-shadow 1px 2px 4px #333
+  span
+    background #6cb78d
+    color white 
+    padding 8px  
+    font-size 1.1em
 .carousel
-	.titulo2
-		margin 5em 0 
-		h2
-			text-align center
-			font-size 2.5em
-			text-transform uppercase
-			font-weight 300
-			color #483949
-		p 
-			text-align center
-			font-size 1.5em
-			color #aaa
-			font-weight 300
-	.reel 
-		display inline-block
-		margin 0 0 6em 3em
-		article
-			padding 0 0 0 1em
-			margin-bottom 0.5em
-			a 
-				img 
-					width 430px
-					height 580px
+  .titulo2
+    margin 5em 0 
+    h2
+      text-align center
+      font-size 2.5em
+      text-transform uppercase
+      font-weight 300
+      color #483949
+    p 
+      text-align center
+      font-size 1.5em
+      color #aaa
+      font-weight 300
+  .reel 
+    display inline-block
+    height 510px
+    overflow hidden
+    article
+      margin-bottom 0.5em
+      a 
+        img 
+          width 100%
 .contacto
-	background #f8f8f8
-	height 350px
-	form
-		.mensaje
-			height 7em
-			margin-top 2em
-			
-				
+  background #f8f8f8
+  height 350px
+  form
+    .mensaje
+      height 7em
+      margin-top 2em
